@@ -1,5 +1,12 @@
-import pandas as pd
-import lxml.html
+from subprocess import call
+try:
+    import pandas as pd
+    import lxml.html
+except:
+    print("Need to get some libs . . .")
+    #call("wget https://raw.githubusercontent.com/aakash30jan/springer_books/master/requirements.txt", shell=True)
+    call("pip install -r https://raw.githubusercontent.com/aakash30jan/springer_books/master/requirements.txt", shell=True)
+    
 import os, sys
 import requests
 import itertools
