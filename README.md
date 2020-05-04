@@ -1,6 +1,5 @@
-Original scrapper by chris-hamberg/springer_books .
-
-Follow the original instructions from here (for those not familiar with Python or git).
+Original scrapper by chris-hamberg/springer_books.
+Follow the original instructions from there.
 
 OR
 
