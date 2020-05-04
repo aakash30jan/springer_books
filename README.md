@@ -12,5 +12,5 @@ In your terminal(or command prompt):
 2)  Get and run the scraper which downloads all the books from your list. 
     ```
     wget https://raw.githubusercontent.com/aakash30jan/springer_books/master/scraper.py
-    python scraper.py
+    python3 scraper.py
     ```
